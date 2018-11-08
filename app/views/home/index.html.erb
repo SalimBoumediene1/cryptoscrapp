@@ -1,0 +1,16 @@
+
+    
+<div class="text-center">
+<h1>Recherche Bitcoins</h1>
+<%= form_for '/' do |f| %>
+
+  <div class="field">
+    <%= f.label :recherche %><br />
+    <%= text_field_tag :recherche %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "recherche" %>
+  </div>
+<% end %>
+</div>
